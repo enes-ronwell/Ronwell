@@ -40,4 +40,9 @@ public class propertiesFactory {
     public long getWait() {
         return Long.parseLong(properties.getProperty("wait"));
     }
+
+    public String getExcel() {
+        return properties.getProperty("excel");
+    }
+
 }
